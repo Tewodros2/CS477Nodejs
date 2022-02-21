@@ -7,6 +7,7 @@ function slow(callback) {
     callback(null, { id: 12345 })
 }
 function exec(fn) {
+
     // Complete the code here to implement chaining with callback
 }
 exec(slow).done(function (data) { console.log(data); })
