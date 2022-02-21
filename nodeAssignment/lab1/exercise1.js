@@ -16,6 +16,19 @@ let arrays = [1, 2, 3, 4, 5, 6, 7, 8];
 let ev = even(arrays)
 console.log("even", ev)
 
+function odd(arrays) {
+    let odd = [];
+    for (let i = 0; i < arrays.length; i++) {
+        if (arrays[i] % 2 != 0) {
+            odd.push(arrays[i])
+        }
+    }
+    return odd;
+}
+let array = [1, 2, 3, 4, 5, 6, 7, 8];
+let od = odd(arrays)
+console.log("odd ", od)
+
 
 
 
